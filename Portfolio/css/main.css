@@ -1,0 +1,314 @@
+:root {
+  --primary: #43b7ff;
+  --dark: rgb(0, 0, 0, 0.9);
+  --another: #ff58d7;
+  --textcolor: #c1c1c1;
+}
+
+body {
+  font-family: "Saira Condensed";
+  background-color: var(--dark);
+  color: var(--textcolor);
+  margin: 0rem;
+  padding: 0rem;
+  font-family: "Saira Condensed", sans-serif;
+  overflow-y: scroll;
+}
+
+/* navbar */
+
+body::-webkit-scrollbar{
+  display: none;
+}
+.navbar {
+  justify-content: space-around;
+  display: flex;
+  background-color: black;
+  transition: 0.4s;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.options {
+  text-align: right;
+  margin: 0.3rem;
+}
+
+.options > div {
+  padding: 1rem;
+  display: inline-block;
+  font-size: 1.5rem;
+}
+
+.options > div > a {
+  color: white;
+  text-decoration: none;
+}
+
+.options > div > a:hover {
+  color: var(--primary);
+  border-bottom: 2px solid var(--primary);
+}
+
+/* intro */
+
+.container{
+  background-image: url(https://raw.githubusercontent.com/ayush-patel-78/neos-20.github.io/main/assets/bg%20img.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+  
+}
+.intro {
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* margin: 0rem 5rem 0rem 5rem; */
+  margin: 10vh 0 20vh 0;
+  padding-left: 17vh;
+  padding-top: 17vh;
+}
+
+
+.part0{
+  display: grid;
+  margin:0;
+  padding-bottom: 5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.quotepara .m1 p{
+  font-size: 1.1rem;
+  float: left;
+  word-wrap: break-word;
+  width: 27%;
+}
+
+.quotepara .m2 p{
+  font-size: 1.1rem;
+  float: right;
+  word-wrap: break-word;
+  width: 27%;
+  
+}
+.quotepara .m3 {
+  position: absolute;
+  margin-left: 28%;
+ 
+ text-align: center;
+ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+  background: var(--dark);
+  border: var(--primary) 2px solid;
+  padding: 1.5rem;
+  border-radius: 1.25rem;
+  font-size: 1.5rem;
+  width:37%;
+  
+
+}
+/* .quoteLeft p{
+  position:absolute;
+  top:50rem;
+  width:30%;
+  margin:1.25rem;
+  float:left;
+}
+.quoteLeft {
+  margin: 0;
+  pos
+}
+.quoteRight p{
+  width:30%;
+  position:absolute;
+  top:50rem;
+  margin:1.25rem;
+  float:right;
+
+} */
+
+/* .Quotes {
+ position: absolute;
+ align-items: center;
+ text-align: center;
+ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+  background: var(--dark);
+  border: var(--primary) 2px solid;
+  padding: 1.5rem;
+  margin:1rem;
+  border-radius: 1.25rem;
+  font-size: 1.5rem;
+  width:40%;
+
+} */
+
+
+
+#NEOS {
+  /* position: absolute; */
+  left: 4.974rem;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 5.5rem;
+  line-height: 5rem;
+}
+
+#NEOS_TAGLINE {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.75rem;
+  line-height: 2.5rem;
+}
+.intro a {
+  color: var(--textcolor);
+  text-decoration: none;
+}
+
+
+
+.part1 {
+  display: grid;
+  margin: 0rem 5rem 0rem 5rem;
+  padding: 10vh;
+}
+
+
+.part1 .ourcom h1 {
+  color: var(--primary);
+  font-size: 4.375rem;
+  border-bottom: 0.125rem solid var(--primary);
+}
+
+.part1 .ourcom .webdt {
+  display: grid;
+  margin: 0rem 5rem 0rem 5rem;
+  padding-left: 5vh;
+}
+.part1 .ourcom .appdt {
+  display: grid;
+  margin: 0rem 5rem 0rem 5rem;
+  padding-right: 5vh;
+}
+.part1 .ourcom .designt {
+  display: grid;
+  margin: 0rem 5rem 0rem 5rem;
+  padding-left: 5vh;
+}
+
+.part1 .ourcom .webdt h2 {
+  font-size: 2.5rem;
+  border-left: 0.313rem solid var(--primary);
+  padding-left: 1.25rem;
+  margin-bottom: 1.875rem;
+}
+
+.part1 .ourcom .appdt h2 {
+  text-align: right;
+  font-size: 2.5rem;
+  border-right: 0.313rem solid var(--primary);
+  padding-right: 1.25rem;
+}
+
+.part1 .ourcom .designt h2 {
+  font-size: 2.5rem;
+  border-left: 0.313rem solid var(--primary);
+  padding-left: 1.25rem;
+}
+.imgtxt1 img{
+  width: 30%;
+  float: right;
+  border-radius: 30px;
+  margin-left: 40px;
+  margin-bottom: 50px;
+  box-shadow: 10px 10px var(--primary);
+}
+
+.imgtxt2 img{
+  width:30%;
+  border-radius: 30px;
+  float: left;
+  margin-right: 40px;
+  margin-bottom: 50px;
+  box-shadow: 10px 10px var(--primary);
+}
+.imgtxt3 img{
+ width: 30%;
+ float: right;
+ border-radius: 30px;
+ margin-left: 40px;
+ margin-bottom: 50px;
+ box-shadow: 10px 10px var(--primary);
+
+}
+/* .image1 {
+  position: absolute;
+  height: 9rem;
+  width: 11rem;
+  top: 39rem;
+  right: 4rem;
+  clip-path: circle(48%);
+  transform: rotate(-146deg);
+  overflow: hidden;
+}
+.image2 {
+  position: absolute;
+  height: 31rem;
+  width: 43rem;
+  top: 9rem;
+  right: -6rem;
+  transform: rotate(90deg);
+  clip-path: circle(34%);
+  overflow: hidden;
+}
+.image3 {
+  position: absolute;
+  height: 17rem;
+  width: 23rem;
+  top: 9rem;
+  right: 25rem;
+  clip-path: circle(27%);
+  transform: rotate(12deg);
+  overflow: hidden;
+}
+.image4 {
+  position: absolute;
+  height: 18rem;
+  width: 26rem;
+  top: 26rem;
+  right: 21rem;
+  clip-path: ellipse(35% 50% at 38% 52%);
+  overflow: hidden;
+}
+.image5 {
+  position: absolute;
+  height: 8rem;
+  width: 11rem;
+  top: 43rem;
+  right: 17rem;
+  clip-path: circle(40%);
+  overflow: hidden;
+} */
+
+html {
+  scroll-behavior: smooth;
+}
+
+.scrolltop{
+  float: right;
+  margin-right: 5rem;
+  margin-top: 1.5rem;
+  background-color: black;
+  border-radius: 12px;
+  padding-left: 5px;
+  padding-right: 5px;
+
+}
+
+.scrolltop:hover {
+  background-color: #737374;
+}

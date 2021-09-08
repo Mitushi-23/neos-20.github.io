@@ -22,11 +22,12 @@
     font-family: montserrat, sans-serif;
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(
+    /* background: linear-gradient(
       33.66deg, #000000 11.6%, #0064C0 38.95%, rgba(20, 20, 20, 0.93) 70.37%);
           background-blend-mode: darken;
-   
+    */
     /* background-color: #212121; */
+    background-color: black;
   }
     .cardholder{
      display: flex;
@@ -35,11 +36,66 @@
      justify-content: space-around;
      padding-bottom: 50px;
      padding-top: 151px;
+     margin: 0px 30px;
     }
   
-  
+  .Portfolio_heading{
+    padding-top: 137px;
+    color: #FFFFFF;
+    text-align: center;
+  }
+
+  .Portfolio_heading h1{
+    font-family:Comfortaa ;
+   font-size: 64px;
+   font-weight: bold;
+   line-height: 35px;
+   line-height: 49%;
+   vertical-align: middle;
+
+
+
+    /* Font family: Comfortaa;
+    Font style: Bold
+Font size: 64px
+Line height: 35px
+Line height: 49%
+Align: Left
+Vertical align: Center */
+  }
+
+  .Portfolio_heading h3{
+font-family: Comfortaa;
+font-style: normal;
+font-size: 26px;
+font-weight: bold;
+line-height: 29px;
+line-height: 100%;
+vertical-align: middle;
+padding-top: 48px;
+/* 
+    Font family: Comfortaa
+Font style: Bold
+Font size: 26px
+Line height: 29px
+Line height: 100%
+Align: Left
+Vertical align: Center */
+  }
+  .line {
+    position: absolute;
+    width: 229px;
+    /* color: #ffa500; */
+    left: 842px;
+    top: 305px;
+    background: #ffa500;
+    height: 3px;
+    /* right: 45px; */
+    /* text-align: center; */
+}
+
   .card {
-    margin: 20px auto 0;
+    margin: 30px 30px;
     width: 316px;
     height: 400px;
     perspective: 1000px;
@@ -57,6 +113,10 @@
   .card__inner.is-flipped {
     transform: rotateY(180deg);
   }
+
+  /* .card__inner.no-flip {
+    transform: none;
+  } */
   
   
   .card__face {
@@ -85,9 +145,35 @@
     top: 83%;
   }
   
+.social_media{
+  display: flex;
+    flex-direction: column;
+    margin-left: 9px;
+    /* margin-top: 5px; */
+    align-items: center;
+    justify-content: space-evenly;
+/* transform: none; */
+}
+
+
+.social_media :hover{
+  transform: scale(1.1);
+}
+
+/* .social_media a{
+  transform: none;
+} */
+
+.header1{
+  margin-right: 10px;
+}
+
   .card__face--back {
     background-color: var(--light);
     transform: rotateY(180deg);
+    background-image: url("https://media.discordapp.net/attachments/880128392849141843/883029601616527360/unknown.png?width=528&height=656") ;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   
   .card__content {
@@ -98,9 +184,14 @@
   .card__header {
     position: relative;
     display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* flex-direction: column; */
+    /* margin-left: 148px; */
+    margin-top: 10px;
+    justify-content: space-between;
+}
+  
   
   .card__header:after {
     content: '';
@@ -110,7 +201,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: linear-gradient(to bottom left, var(--primary) 10%, var(--secondary) 115%);
+    /* background-image: linear-gradient(to bottom left, var(--primary) 10%, var(--secondary) 115%); */
     z-index: -1;
     border-radius: 0px 0px 50% 0px;
     height: 185px;
@@ -120,32 +211,36 @@
     display: block;
     width: 128px;
     height: 128px;
-    margin: 19px auto 30px;
+    /* margin: 19px auto 30px; */
     border-radius: 50%;
-    background-color: #FFF;
-    border: 5px solid #FFF;
+    /* background-color: #FFF; */
+    /* border: 5px solid #FFF; */
     object-fit: cover;
   }
   
   .card__header h2 {
-    color: #FFF;
-    font-size: 32px;
-    font-weight: 900;
-    text-transform: uppercase;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    /* text-transform: uppercase; */
     text-align: center;
     /* top: 20%; */
-    margin-right: 48px;
-  }
+    /* margin-right: 48px; */
+    font-family: comfortaa;
+    margin-top: 5px;
+}
+
+  
   
   .card__body {
-    padding: 10px;
+    padding: 19px 10px;
   }
   
   .card__body h3 {
     color: var(--dark);
     font-size: 24px;
     font-weight: 600;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
   }
   
   .card__body p {

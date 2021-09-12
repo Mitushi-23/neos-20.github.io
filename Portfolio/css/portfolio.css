@@ -118,6 +118,9 @@ Vertical align: Center */
     transform: none;
   } */
   
+  div{
+    border: #e20a4c solid 2px;
+  }
   
   .card__face {
     position: absolute;

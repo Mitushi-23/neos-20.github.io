@@ -143,10 +143,10 @@ const data = JSON.parse(text);
                 <div class="card__header">
                
                 <div class="social_media">
-                <a href="${data["portfolio"][i][3]}"><img src="icons/insta.png" alt="" width="24.26px" height="26.31px" class = "icon"></a> 
-                <a href="${data["portfolio"][i][2]}"><img src="icons/github.png" alt="" width="24.26px" height="26.31px" class = "icon"></a>
-                  <a href="${data["portfolio"][i][4]}"><img src="icons/linkedin.png" alt="" width="24.26px" height="26.31px" class = "icon"></a> 
-                  <a href="${data["portfolio"][i][5]}"><img src="icons/twitter.png" alt="" width="24.26px" height="26.31px" class = "icon"></a>  
+                <a href="${data["portfolio"][i][3]}" target="blank"><img src="icons/insta.png" alt="" width="24.26px" height="26.31px" class = "icon"></a> 
+                <a href="${data["portfolio"][i][2]}" target="blank"><img src="icons/github.png" alt="" width="24.26px" height="26.31px" class = "icon" ></a>
+                  <a href="${data["portfolio"][i][4]}" target="blank"><img src="icons/linkedin.png" alt="" width="24.26px" height="26.31px" class = "icon"></a> 
+                  <a href="${data["portfolio"][i][5]}" target="blank"><img src="icons/twitter.png" alt="" width="24.26px" height="26.31px" class = "icon"></a>  
                 </div>
                 <div class="header1">
                     <img src="${data["portfolio"][i][6]}" alt="" class="pp" />

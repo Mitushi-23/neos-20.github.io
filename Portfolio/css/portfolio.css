@@ -88,7 +88,7 @@ Vertical align: Center */
     /* color: #ffa500; */
     left: 842px;
     top: 305px;
-    background: #ffa500;
+    background: #3E94C7;
     height: 3px;
     /* right: 45px; */
     /* text-align: center; */
@@ -134,7 +134,10 @@ Vertical align: Center */
   }
   
   .card__face--front {
-    background-image: linear-gradient(to bottom right, var(--primary), var(--secondary));
+    /* background-color: C68484; */
+    background: linear-gradient(180deg, #C68484 0%, #3E94C7 100%);
+
+    /* background-image: linear-gradient(to bottom right, var(--primary), var(--secondary)); */
     display: flex;
     align-items: center;
     justify-content: center;
